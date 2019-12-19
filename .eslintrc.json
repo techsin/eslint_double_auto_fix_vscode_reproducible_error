@@ -1,0 +1,22 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2020": true,
+        "jest": true,
+        "node": true
+    },
+    "ignorePatterns": [
+        ".eslintrc.js",
+        "node_modules/"
+    ],
+    "rules": {
+        "padded-blocks": [
+            "error",
+            "never"
+        ]
+    }
+}
